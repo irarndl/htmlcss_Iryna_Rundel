@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <title>Lesson6</title>
+</head>
+<body>
+    <div class="header"> Contact manager</div>
+    <div class="main">
+         <div class="main_part1">
+
+                <form>
+                
+                <p> First name <span style="color: red;">*</span>:
+                    <input class="in" type="text" name="first_name" required placeholder="First name"/>
+                </p>
+                    
+
+                <p> Last name <span style="color: red;">*</span>:
+                    <input class="in" type="text" name="last_name" required placeholder="Last name"/>
+                </p>
+                <br>
+                <p> Address                
+                    <textarea class="in" cols="40" rows="8" name="textarea" placeholder=""></textarea>
+                </p>
+                <br> <br> <br><br><br>
+                <p> City
+                    <input class="in" type="text" name="City" required placeholder="City"/>
+                </p>
+                <br> 
+                <p> State
+                <select class="in" name="select">
+                    <option value="State1">Ukraine</option>
+                    <option value="State2">Poland</option>
+                </select>
+                </p>
+                <p> ZIP
+                    <input class="in" type="text" name="Zip code" required placeholder="ZIP"/>
+                </p>
+
+                <p> Home phone
+                    <input class="in" type="text" name=""/>
+                </p>
+                <p> Work phone <span style="color: red;">*</span>:
+                    <input class="in" type="text" name=""/>
+                </p>
+                <p> Fax number
+                    <input class="in" type="text" name=""/>
+                </p>
+                <br>
+                <p> Web Site
+                    <fieldset style="border: 0px; width: 300px; float: left;margin-left:270px; margin-bottom: 40px; margin-top: -60px;">
+                        <legend style="text-align: none"></legend>
+                        <br/>
+                        URL<input class = "in" type="text" name="URL" />
+                        <br/>
+                        Link text
+                        <input class = "in" type="text" name="link text" />
+                        <br/>
+                    </fieldset>
+                </p>
+                <p> Email <span style="color: red;">*</span>:
+                    <input class="in" type="text" name=""/>
+                </p>
+                </form>
+            </div>
+
+
+            <div class="main_part2">
+
+                <div class = "questions">
+                
+                        <div class='q0'> <p> When is the best time to contact you? </p></div>
+                        <div class = "q1">
+                        <br>
+                        Morning
+                        <input type="radio" name="Contact" value="Morning" checked/>
+                        <br />
+                        Afternoon
+                        <input type="radio" name="Contact" value="Afternoon" />
+                        <br />
+                        Evening
+                        <input type="radio" name="Contact" value="car" />
+                        <br>
+                        </div>
+
+                </div>
+
+                <br>
+                <div class = "questions">
+        
+                    
+                    <div class='q0'> <p> What is the best time to contact you? </p></div>
+                    <div class = "q2">
+                        <br>
+                        Phone
+                        <input type="radio" name="Contact" value="Phone" checked/>
+                        <br />
+                        Mail
+                        <input type="radio" name="Contact" value="Mail" />
+                        <br />
+                        Fax
+                        <input type="radio" name="Contact" value="Fax" />
+                        <br>
+                        </div>
+                </div>
+                <div class='q0'> <p> Message </p></div>
+                <textarea class="in" cols="40" rows="8" name="textarea" placeholder=""></textarea>
+
+            </div>
+
+
+        </div>
+
+    
+</div>
+<div class="footer"> 
+    <button class="buttons"> Submit
+    </button>
+
+    <button class="buttons"> Reset
+
+    </button>
+
+</div>
+</body>
+</html>

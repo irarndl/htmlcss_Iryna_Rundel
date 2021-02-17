@@ -1,0 +1,110 @@
+
+
+* {
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 1440px;
+    margin: 0 auto;
+
+}
+
+.header {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    padding: 25px 0;
+    background-color: rgb(114, 223, 114);
+    margin: 0px auto;
+    height: 100px;
+    font-weight: bolder;
+    font-size: 30px;
+    text-indent: 90px;
+   
+} 
+
+.footer {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: rgb(202, 199, 199);
+    height: 96px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:40px"
+}
+
+.buttons {
+    border-radius: 0px;
+    background-color:rgb(114, 223, 114);
+    width: 300px;
+    margin-right:10px;
+    font-size: 30px;
+    color: ivory;
+
+}
+
+p {
+    font-size: 24px;
+    font-weight: bolder;
+    text-indent: 20px;
+    margin-bottom: 40px;
+   
+}
+.in {
+    float: right;
+    margin-bottom: 5px;
+    margin-left: 60px;
+    
+
+}
+
+
+.main{
+    display: flex;
+    justify-content: center;
+   
+
+
+}
+
+.main_part1
+{
+    margin-right: 120px;
+    padding-right: 0%;
+}
+.main_part2
+{
+    float: right;
+
+}
+legend {
+    font-size: 30px;
+    font-weight: bolder;
+   
+}
+.area {
+   margin-left: 30px;
+}
+
+.questions {
+    display: flex; 
+    
+}
+
+.q0
+{
+   margin-right: 200px; 
+}
+.q1{
+display: flex;
+flex-direction: column;
+
+}
+.q2
+{
+display: flex;
+flex-direction: column;
+margin-left:27px;
+margin-top: 10px;
+}
